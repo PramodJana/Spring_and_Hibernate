@@ -1,11 +1,15 @@
 package com.love2code.springdemo;
 
+
 public class MyApp {
-public static void main(String[] args)
-{
-	//create the object
-	Coach theCoach = new CricketCoach();
-	//use the object
-	System.out.println(theCoach.getDailyWorkout());
-}
+
+	public static void main(String[] args) {
+
+		// create the object
+		Coach theCoach = new TrackCoach();
+		
+		// use the object
+		System.out.println(theCoach.getDailyWorkout());		
+	}
+
 }
